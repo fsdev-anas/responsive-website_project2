@@ -1,7 +1,7 @@
 /* Common CSS */
 * {
-    margin                  : 0;
-    padding                 : 0;
+    margin               : 0;
+    padding              : 0;
 }
    
 a {
@@ -36,20 +36,20 @@ h1,h2,h3,h3,h4PA,h5,h6,p {
 }
 
 .navbar-toggler i{
-        color: var(--primary-color);
+        color            : var(--primary-color);
     }
 
 /* Navbar part css */
 .navbar{
-    padding: 30px 0;
+    padding              : 30px 0;
 }
 
 .navbar-brand{
-    transition: all ease-in-out .8s;
+    transition           : all ease-in-out .8s;
 }
 
 .navbar-brand:hover{
-    transform: scale(1.2);
+    transform            : scale(1.2);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -75,15 +75,15 @@ h1,h2,h3,h3,h4PA,h5,h6,p {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-    color     :var(--primary-color);
+    color                :var(--primary-color);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover i {
-    color     : #29313D;
+    color                : #29313D;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:not(:hover) i {
-    color             : #29313D;
+    color                : #29313D;
 }
 
 .nav-btn{
@@ -107,97 +107,97 @@ h1,h2,h3,h3,h4PA,h5,h6,p {
 .banner-right{
     height: 110%;
     width: 110%;
-    margin-top           : 200px;
-    padding-left         : 50px ;
+    margin-top            : 200px;
+    padding-left          : 50px ;
 }
 
 .banner-left__heading{
-    margin-top           : 250px;
-    font-family          : var(--primary-font);
-    font-size            : 64px;
-    line-height          : 74px;
-    font-weight          : 700;
-    color                : #29313D;
-    text-transform       : capitalize;
+    margin-top            : 250px;
+    font-family           : var(--primary-font);
+    font-size             : 64px;
+    line-height           : 74px;
+    font-weight           : 700;
+    color                 : #29313D;
+    text-transform        : capitalize;
 }
 
 .banner-left__paragraph{
-    margin-top           : 320px;
-    font-family          : var(--rare-font);
-    font-size            : 18px;
-    line-height          : 200%;
-    font-weight          : 400;
-    color                : #29313D;
-    margin-top           : 40px;
-    margin-bottom        : 40px;
-    padding-right        : 210px;
-    text-transform       : capitalize;
+    margin-top            : 320px;
+    font-family           : var(--rare-font);
+    font-size             : 18px;
+    line-height           : 200%;
+    font-weight           : 400;
+    color                 : #29313D;
+    margin-top            : 40px;
+    margin-bottom         : 40px;
+    padding-right         : 210px;
+    text-transform        : capitalize;
 }
 
 .banner-left__box{
-    background           : rgba(132, 84, 245, 0.05);
-    border-radius        : 24px;
-    height               : 110px;
-    width                : 82%;
+    background            : rgba(132, 84, 245, 0.05);
+    border-radius         : 24px;
+    height                : 110px;
+    width                 : 82%;
 }
 
 .banner-left__form input{
-    margin-top           : 35px;
-    margin-bottom        : 37px;
-    padding-left         : 18px;
+    margin-top            : 35px;
+    margin-bottom         : 37px;
+    padding-left          : 18px;
     margin-left: 28px;
-    border-radius        : 8px;
-    border               : none;
-    background-color     : transparent;
-    width                : 98%;
-    height               : 40px;
+    border-radius         : 8px;
+    border                : none;
+    background-color      : transparent;
+    width                 : 98%;
+    height                : 40px;
 }
 
 .banner-btn{
-    padding              : 20px 48px;
-    background-color     : var(--primary-color);
-    color                : #fff;
-    border               : none;
-    border-radius        : 18px;
-    margin-top           : 15px;
-    font-family          : var(--rare-font);
-    font-size            : 19px;
-    font-weight          : 600;
-    text-transform       : capitalize;
-    transition           : all ease-in-out .7s;
+    padding               : 20px 48px;
+    background-color      : var(--primary-color);
+    color                 : #fff;
+    border                : none;
+    border-radius         : 18px;
+    margin-top            : 15px;
+    font-family           : var(--rare-font);
+    font-size             : 19px;
+    font-weight           : 600;
+    text-transform        : capitalize;
+    transition            : all ease-in-out .7s;
 }
 
 .banner-btn:hover{
-    background-color     :tomato;
-    color                : #fff;
-    transform            : scale(1.1);
+    background-color      :tomato;
+    color                 : #fff;
+    transform             : scale(1.1);
 }
 
 /* Sponsor part css */
 #sponsor{
-    margin-top          : 150px;
-    margin-bottom       : 60px;
+    margin-top           : 150px;
+    margin-bottom        : 60px;
 }
 
 .sponsor-box{
-    width               : 210px;
-    height              : 130px;
-    justify-content     : center;
-    align-items         : center;
+    width                : 210px;
+    height               : 130px;
+    justify-content      : center;
+    align-items          : center;
 }
 
 .sponsor-box svg{
-    transition: all ease-in-out .5s;
+    transition           : all ease-in-out .5s;
 }
 
 .sponsor-box svg:hover{
-    transform: scale(1.2);
+    transform            : scale(1.2);
 }
 
 /* Solution part css */
 #solution{
-    padding-top         : 60px;
-    padding-bottom      : 60px;
+    padding-top          : 60px;
+    padding-bottom       : 60px;
 }
 
 .topleft__heading{
@@ -270,9 +270,9 @@ h1,h2,h3,h3,h4PA,h5,h6,p {
 
 /* business part css */
 #business{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    position: relative;
+    padding-top         : 100px;
+    padding-bottom      : 100px;
+    position            : relative;
 }
 
 .business-img{
